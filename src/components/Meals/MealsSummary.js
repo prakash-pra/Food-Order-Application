@@ -1,22 +1,19 @@
-import { Fragment } from 'react';
-import classes from './MealsSummary.module.css';
+import classes from './MealSummary.module.css';
 
 // brief meal summary card
 const MealsSummary = () => {
   return (
-    <Fragment>
-      <section className={classes.summary}>
-        <h2>Delicious food, Delivered to you</h2>
-        <p>
-          Choose your favorite meal from our broad selection of available meals
-          and enjoy a delicious lunch or dinner at home.
-        </p>
-        <p>
-          All our meals are cooked with high-quality ingredients, just-in-time
-          and of course by experienced chefs!
-        </p>
-      </section>
-    </Fragment>
+    <section className={classes.summary}>
+      <h2>Delicious food, Delivered to you</h2>
+      <p>
+        Choose your favorite meal from our broad selection of available meals
+        and enjoy a delicious lunch or dinner at home.
+      </p>
+      <p>
+        All our meals are cooked with high-quality ingredients, just-in-time and
+        of course by experienced chefs!
+      </p>
+    </section>
   );
 };
 
