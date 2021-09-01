@@ -1,6 +1,6 @@
 import classes from './MealItems.module.css';
 
-import Input from '../UI/Input';
+import MealItemForm from './MealItemForm';
 
 // meal items component(mapping in list)
 const MealItems = (props) => {
@@ -14,17 +14,7 @@ const MealItems = (props) => {
         <div className={classes.price}>{price}</div>
       </div>
       <div>
-        <Input
-          label='Amout'
-          input={{
-            id: 'amout',
-            type: 'text',
-            min: '1',
-            max: '5',
-            step: '1',
-            defaultValue: '1'
-          }}
-        />
+        <MealItemForm />
       </div>
     </li>
   );
