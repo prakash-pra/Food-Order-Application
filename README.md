@@ -1,6 +1,6 @@
 # Food-Order-Application
 
-quick start 
+# Quick start 
 
-### `npm install 
-      npm start`
+### `npm install` 
+### `npm start`
